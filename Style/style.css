@@ -2,9 +2,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
+}
+
+/* common shared styles */
+.common-color {
+    color: #FF5400;
 }
 
 /* header related styles */
 
+
+.logo {
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+header {
+    padding: 44px 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    font-size: 18px;
+}
+
+/* banner related styles */
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-section {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    gap: 24px;
+}
+
+.banner-p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.find-option {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.option {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-primary {
+    color: #FFF;
+    border: none;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
